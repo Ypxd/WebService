@@ -1,0 +1,11 @@
+---
+Server:
+  Host: 127.0.0.1
+  Port: 8000
+  RTimeout: 50
+  WTimeout: 50
+DB:
+  DriverName: postgres
+  ConnString: postgres://postgres:postgres@localhost:5432/testtask?sslmode=disable
+  MaxConns: 10
+  ConnTimeout: 10
